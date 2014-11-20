@@ -13,7 +13,7 @@ public class NormalLonelyTweet implements Serializable {
 	public NormalLonelyTweet() {
 	}
 
-	public NormalLonelyTweet(String text, Date date) {
+	public NormalLonelyTweet(String text) {
 		this.tweetDate = date;
 		this.tweetBody = text;
 	}

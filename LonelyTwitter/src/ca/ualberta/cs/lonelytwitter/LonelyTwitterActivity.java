@@ -1,6 +1,5 @@
 package ca.ualberta.cs.lonelytwitter;
 
-import java.util.Date;
 import java.util.List;
 
 import android.app.Activity;
@@ -45,7 +44,7 @@ public class LonelyTwitterActivity extends Activity {
 
 		NormalLonelyTweet tweet;
 
-		tweet = new NormalLonelyTweet(text, new Date());
+		tweet = new NormalLonelyTweet(text);
 
 //		String text = bodyText.getText().toString();
 //
